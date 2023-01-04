@@ -11,3 +11,79 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* navbar  */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navvar */
+.nav-bar{
+  background: #1d4052;
+  /* background: #4f535c; */
+  color: white;
+  padding: 20px;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* position: fixed; */
+}
+
+.subbrand{
+  font-size: 15px;
+  font-weight: 60px;
+  letter-spacing: 2px;
+  padding-left: 18px;
+  margin-bottom: 0;
+  color: gold;
+  text-shadow: 0 0 10px black;
+}
+
+.brand{
+  font-size: 30px;
+  font-weight: 60px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+  text-shadow: 0 0 10px white;
+  float: left;
+  margin-left: 20px;
+}
+
+.menu-right{
+  text-align: right;
+}
+
+.nav-bar ul li{
+  display: inline-block;
+  /* position:fixed; */
+  margin: 10px;
+  list-style: none;
+}
+.nav-bar ul li a{
+  
+  color: gold;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  text-shadow: 0 0 5px black;
+}
+.nav-bar ul li a:hover{
+  background-color: white;
+  color:#152853 ;  
+  transition: 0.7s ease;
+} 
+
+span{
+  margin: 0 20px;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+}
